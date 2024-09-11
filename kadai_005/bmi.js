@@ -5,5 +5,9 @@ let bodyWeight = 68;
 let height = 1.7;
 
 // 四則演算
-console.log(bodyWeight / (height * height));
+// console.log(bodyWeight / (height * height));
 
+// BMI の計算結果も変数に代入
+let bmi = bodyWeight / (height * height);
+
+console.log(bmi);
