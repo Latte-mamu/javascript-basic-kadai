@@ -6,8 +6,8 @@ const date = new Date();
 
 const [month, day, year] = [
  	date.getMonth(),
-  	date.getDay(),
+  	date.getDate(),
   	date.getFullYear(),
 ];
 
-console.log(year + '年', month + 1 + '月', day + 22 + '日');
+console.log(year + '年', month + 1 + '月', day + '日');
