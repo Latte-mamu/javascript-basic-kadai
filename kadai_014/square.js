@@ -1,5 +1,5 @@
-const double = (num) => {
-	return num * 2;
+const beki = () => {
+	console.log(10**2);
 	}
 
-console.log(double(50));
+	beki();
