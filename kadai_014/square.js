@@ -1,5 +1,5 @@
-const beki = () => {
-	console.log(10**2);
-	}
+const addSquare = (beki) => {
+	console.log(beki**2);
+}
 
-	beki();
+addSquare(10);
