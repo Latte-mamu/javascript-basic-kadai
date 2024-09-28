@@ -1,5 +1,5 @@
-const addSquare = (beki) => {
-	console.log(beki**2);
+const addSquare = (num) => {
+	return num ** 2;
 }
 
-addSquare(10);
+console.log(addSquare(10));
